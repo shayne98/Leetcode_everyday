@@ -1,6 +1,7 @@
 package leecode.DFS_Backtracking.No417;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -40,10 +41,7 @@ class Solution {
         for(int i=0;i<height;i++){
             for(int j=0;j<width;j++){
                 if(AltVisit[i][j]&&PacVisit[i][j]){
-                    ArrayList<Integer> temp =new ArrayList<>();
-                    temp.add(i);
-                    temp.add(j);
-                    ans.add(temp);
+                    ans.add(new ArrayList<>(Arrays.asList(i,j)));
                 }
             }
         }
