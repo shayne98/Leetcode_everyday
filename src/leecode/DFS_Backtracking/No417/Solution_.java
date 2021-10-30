@@ -1,12 +1,14 @@
-package leecode;
-
+package leecode.DFS_Backtracking.No417;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
-@SuppressWarnings("all")
+/**
+ * @author 小羊Shaun
+ * @version 1.0
+ */
+public class Solution_ {
+}
 class Solution {
     boolean[][] PacVisit,AltVisit;
     List<List<Integer>> ans = new ArrayList<>();
