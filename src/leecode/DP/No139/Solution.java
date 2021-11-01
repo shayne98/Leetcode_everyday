@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author 小羊Shaun
- * @version 1.0
+ * @version 2.0
  * 139. Word Break
  * time O(strLen*(strLen+wordDict.size()))？ | space O(strLen)
  * 分割类动态规划
@@ -19,16 +19,11 @@ class Solution {
         String firstStr = s.substring(0,1);
         dp[0]=wordDict.contains(firstStr)?true:false;
         for(int i=1;i<strLen;i++){
-            //s.substring(0,i+1)已经在wordDict中存在时，无需拆分
-            if(wordDict.contains(String.valueOf(chars,0,i+1))){
-                dp[i]=true;
-                continue;
-            }
             //遍历s中以s.charAt(i)结尾的所有子序列
             //若s.substring(j,i+1)在wordDict中存在且dp[j-1]为true，则有满足条件的组合
-            for(int j=i;j>0;j--){
+            for(int j=i;j>=0;j--){
                 String subStr = String.valueOf(chars,j,i-j+1);
-                if(dp[j-1]&&wordDict.contains(subStr)){
+                if((j==0||dp[j-1])&&wordDict.contains(subStr)){
                     dp[i]=true;
                     break;
                 }
