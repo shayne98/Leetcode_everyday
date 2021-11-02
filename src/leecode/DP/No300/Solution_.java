@@ -35,6 +35,7 @@ class Solution_{
                     dp.add(Integer.valueOf(nums[i]));
                 //若nums[i]小于dp中index为下标的元素，改其改为nums[i]这样后面遍历元素时组成递增序列的可能性增加了
                 //这是一种贪心的思想
+                //同时保证dp永远是递增的序列
                 else{
                     dp.set(index,Integer.valueOf(nums[i]));
                 }
