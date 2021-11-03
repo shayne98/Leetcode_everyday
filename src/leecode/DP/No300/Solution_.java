@@ -9,6 +9,13 @@ import java.util.Collections;
  * 300. Longest Increasing Subsequence
  * 分割类动态规划，采用贪心算法和二分查找进行优化
  * time O(nlongn) | space O(n)
+ *
+ * 室友的提醒下，发现答案给的二分贪心做法我的理解有点问题的，虽然返回的序列长度是对的
+ * 但是dp这个arraylist内部存的序列可能是不满足条件的，也就是说储存的并不是当前情况下的最长子序列
+ *例如[10,9,2,5,3,1,101,18]，依次处理过程中，dp中储存的分别是：
+ *{10}{9}{2}{2，5}{2，3}{1，3}到此位置序列已经不满足题意了，1的位置在3的位置前，源数组1的位置在3之后，
+ * 由于dp的长度不减，而某个长度的dp必定对应一个符合题意的子序列，但可能不是当前的子序列
+ *
  */
 class Solution_{
 //    public static void main(String[] args) {
