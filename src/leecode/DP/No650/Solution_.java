@@ -12,7 +12,7 @@ class Solution_ {
        int res =0;
        int factor = 2;
        while(n>1) {
-           //n%factor == 0表示可以由n/factor粘贴factor次得到
+           //n%factor == 0表示可以由n/factor复制1次，粘贴factor-1次得到
            //实质是递归的思想，但是写成了while循环的形式
            //注意检查边界，n==factor时也是符合的
            while (n % factor == 0) {
