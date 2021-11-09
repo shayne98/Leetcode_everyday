@@ -14,6 +14,7 @@ class Solution {
         for(int i=3;i<=n;i++){
             //dp初始化为i个1相加此时乘积为最小值
             dp[i] = 1;
+            //遍历之前的dp值
             for(int j=1;j<i-1;j++){
                     if(dp[i]<dp[i-j]*j){
                         dp[i] = dp[i-j]*j;
