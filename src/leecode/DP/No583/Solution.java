@@ -5,6 +5,7 @@ package leecode.DP.No583;
  * @version 1.0
  * 583. Delete Operation for Two Strings
  * time O(len1*len2) | space O(len1*len2)
+ * 最长公共子序列的变种
  */
 class Solution {
     public int minDistance(String word1, String word2) {
