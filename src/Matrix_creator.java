@@ -17,7 +17,7 @@ import java.util.Random;
  * */
 
 
-public class Homework000 {
+public class Matrix_creator {
 
 
     public static void main(String[] args) {
