@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/divide_and_conquer/No312/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/math/No415/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/math/No504/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/divide_and_conquer/No241/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/divide_and_conquer/No241/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/math/N0504/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No121/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/math/No172/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No172/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +71,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
-    <configuration name="Matrix_creator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrix_creator" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.divide_and_conquer.No241.Solution" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leecode.divide_and_conquer.No241.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.math.No415.Solution" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.math.No415.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.ans" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution_ (1)" />
-        <item itemvalue="Application.Matrix_creator" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +237,12 @@
       <workItem from="1638843500105" duration="4393000" />
       <workItem from="1638860742836" duration="316000" />
       <workItem from="1638889597652" duration="6034000" />
-      <workItem from="1639016929691" duration="7144000" />
+      <workItem from="1639016929691" duration="8348000" />
+      <workItem from="1639036856228" duration="335000" />
+      <workItem from="1639104782075" duration="1194000" />
+      <workItem from="1639132305407" duration="8206000" />
+      <workItem from="1639189255068" duration="925000" />
+      <workItem from="1639319182034" duration="3829000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
