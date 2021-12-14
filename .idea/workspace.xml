@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/math/No415/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/math/No504/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/DP/No188/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/divide_and_conquer/No241/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/divide_and_conquer/No241/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/math/N0504/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No121/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/math/No172/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No172/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +237,9 @@
       <workItem from="1639104782075" duration="1194000" />
       <workItem from="1639132305407" duration="8206000" />
       <workItem from="1639189255068" duration="925000" />
-      <workItem from="1639319182034" duration="3829000" />
+      <workItem from="1639319182034" duration="4640000" />
+      <workItem from="1639410128898" duration="611000" />
+      <workItem from="1639445983352" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
