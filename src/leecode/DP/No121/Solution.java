@@ -1,4 +1,4 @@
-package leecode.math.No121;
+package leecode.DP.No121;
 
 /**
  * @author 小羊Shaun
