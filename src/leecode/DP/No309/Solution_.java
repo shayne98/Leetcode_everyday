@@ -4,6 +4,7 @@ package leecode.DP.No309;
  * @author 小羊Shaun
  * @version 2.0
  * 309. Best Time to Buy and Sell Stock with Cooldown
+ * 股票交易状态机
  * 减小开的数组大小
  */
 @SuppressWarnings("all")
