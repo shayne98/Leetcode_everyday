@@ -10,36 +10,23 @@ import java.util.*;
 @SuppressWarnings("all")
 
 class Solution {
-    public List<Integer> diffWaysToCompute(String expression) {
-        ArrayList<Integer> output = new ArrayList<>();
-        char[] words = expression.toCharArray();
-        boolean op = false;
-        for(int i=0;i<expression.length();i++){
-            char ch = words[i];
-            if(ch=='+'||ch=='-'||ch=='*'){
-                op = true;
-                List<Integer> left = diffWaysToCompute(expression.substring(0, i));
-                List<Integer> right = diffWaysToCompute(expression.substring(i+1));
-                for (Integer integer1 : left) {
-                    for (Integer integer2 : right) {
-                        switch (ch){
-                            case '+':
-                                output.add(integer1+integer2);
-                                break;
-                            case '-':
-                                output.add(integer1-integer2);
-                                break;
-                            case '*':
-                                output.add(integer1*integer2);
-                                break;
-                        }
-                    }
+    public int longestCommonSubsequence(String text1, String text2) {
+        int len1 = text1.length();
+        int len2 = text2.length();
+        char[] char1 = text1.toCharArray();
+        char[] char2 = text2.toCharArray();
+        //dp[i][j]表示到第i和j位置text1 text2最长公共子序列的长度
+        int[][] dp = new int[len1+1][len2+1];
+        for(int i=1;i<len1;i++){
+            for(int j=1;j<len2;j++){
+                if(char1[i-1]==char2[j-1]){
+                    dp[i][j] = dp[i-1][j-1]+1;
+                }
+                else{
+                    dp[i][j] = Math.max(dp[i][j-1],dp[i-1][j]);
                 }
             }
         }
-        if(op==false){
-            output.add(new Integer(expression));
-        }
-        return output;
+        return dp[len1][len2];
     }
 }
