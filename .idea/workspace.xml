@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
+      <change afterPath="$PROJECT_DIR$/src/leecode/sorting/No451/Solution_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +244,8 @@
       <workItem from="1639534924940" duration="5633000" />
       <workItem from="1639622537935" duration="3476000" />
       <workItem from="1639655207472" duration="6123000" />
-      <workItem from="1639718107158" duration="2399000" />
+      <workItem from="1639718107158" duration="2537000" />
+      <workItem from="1639731252075" duration="9973000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
@@ -440,14 +443,6 @@
           <url>file://$PROJECT_DIR$/src/leecode/DP/No474/Solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leecode/Test.java</url>
-          <line>15</line>
-          <properties class="leecode.Solution" method="minSteps">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

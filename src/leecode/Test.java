@@ -10,20 +10,24 @@ import java.util.*;
 @SuppressWarnings("all")
 
 class Solution {
-    public static void main(String[] args) {
-        new Solution().minSteps(6);
-    }
-    public int minSteps(int n) {
-        int[] dp = new int[n+1];
-        for(int i=2;i<=n;i++){
-            dp[i] = i;
-            for(int j=2;j*j<=i;j++){
-                if(i%j==0){
-                    int num = i/j;
-                    dp[i] = dp[num]+j;
-                }
-            }
+    public String frequencySort(String s) {
+        char[] chars = s.toCharArray();
+        int len = chars.length;
+        int[] bucket = new int[150];
+        Integer[] char2int = new Integer[len];//comparator的不能传入基本数据类型如char，int，必须传入封装类型
+        int i=0;
+        for (char aChar : chars) {
+            bucket[aChar]+=1;
+            char2int[i++] = aChar-'A';
         }
-        return dp[n];
+        Arrays.sort(char2int,(a,b)->{
+            if(bucket['A'+b]!=bucket['A'+a])return bucket['A'+b]-bucket['A'+a];//根据桶内每个字符的数量进行排序，从大到小
+            else return b-a;//相同字符的放在一起
+        });
+        char[] ans = new char[len];
+        for( i=0;i<len;i++){
+            ans[i] = (char) ('A'+char2int[i]);
+        }
+        return new String(ans);
     }
 }
