@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/DP/No494/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/DP/No494/Solution_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/DP/No376/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/DP/No376/Solution_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/DP/No10/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/DP/No10/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +254,8 @@
       <workItem from="1639731252075" duration="10514000" />
       <workItem from="1639791446908" duration="13575000" />
       <workItem from="1639826165745" duration="2929000" />
-      <workItem from="1639879826166" duration="8487000" />
+      <workItem from="1639879826166" duration="9478000" />
+      <workItem from="1640055562274" duration="8400000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
