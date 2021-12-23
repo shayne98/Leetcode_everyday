@@ -9,17 +9,44 @@ import java.util.*;
 
 @SuppressWarnings("all")
 class Solution {
-    public int integerBreak(int n) {
-        int[] dp = new int[n+1];
-        dp[1] =1;
-        if(n==1)return 0;
-        for(int i=2;i<=n;i++){
-            dp[i] = 1;
-            for(int j=1;j<=i/2;j++){
-                dp[i] = Math.max(dp[i],Math.max(j*dp[i-j],(i-j)*dp[j]));
+    public List<Integer> diffWaysToCompute(String expression) {
+        char[] chars = expression.toCharArray();
+        int len = chars.length;
+        boolean flag = false;
+        List<Integer> ans = new ArrayList<>();
+        for(int i=0;i<len;i++){
+            char ch = chars[i];
+            if(ch=='+'||ch=='-'||ch=='*'){
+                flag = true;
+                List<Integer> left = new ArrayList<>();
+                List<Integer> right = new ArrayList<>();
+                left = diffWaysToCompute(expression.substring(0,i));
+                right = diffWaysToCompute(expression.substring(i+1));
+                for (Integer num1 : left) {
+                    for (Integer num2 : right) {
+                        switch (ch){
+                            case '+':
+                                ans.add(num1+num2);
+                                break;
+
+                            case '-':
+                                ans.add(num1-num2);
+                                break;
+                            case '*':
+                                ans.add(num1*num2);
+                                break;
+                        }
+                    }
+                }
             }
         }
-        return dp[n];
-
+        if(!flag){
+            int sum = 0;
+            for (char ch : chars) {
+                sum = 10*sum+ch-'0';
+            }
+            ans.add(sum);
+        }
+        return ans;
     }
 }
