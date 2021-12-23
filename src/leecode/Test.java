@@ -9,44 +9,30 @@ import java.util.*;
 
 @SuppressWarnings("all")
 class Solution {
-    public List<Integer> diffWaysToCompute(String expression) {
-        char[] chars = expression.toCharArray();
-        int len = chars.length;
-        boolean flag = false;
-        List<Integer> ans = new ArrayList<>();
-        for(int i=0;i<len;i++){
-            char ch = chars[i];
-            if(ch=='+'||ch=='-'||ch=='*'){
-                flag = true;
-                List<Integer> left = new ArrayList<>();
-                List<Integer> right = new ArrayList<>();
-                left = diffWaysToCompute(expression.substring(0,i));
-                right = diffWaysToCompute(expression.substring(i+1));
-                for (Integer num1 : left) {
-                    for (Integer num2 : right) {
-                        switch (ch){
-                            case '+':
-                                ans.add(num1+num2);
-                                break;
+    int[][] mem ;
+    public int maxCoins(int[] nums) {
+        int len = nums.length+2;
+        int[] op_nums = new int[len];
+        mem = new int[len][len];
+        op_nums[0] = 1;
+        op_nums[len-1] = 1;
+        for(int i=1;i<len-1;i++){
+            op_nums[i] = nums[i-1];
+        }
+        return devide_conquer(op_nums,0,len-1);
 
-                            case '-':
-                                ans.add(num1-num2);
-                                break;
-                            case '*':
-                                ans.add(num1*num2);
-                                break;
-                        }
-                    }
-                }
-            }
+    }
+    public int devide_conquer(int[] op_nums,int st,int ed){
+        if(st+1==ed)return 0;
+        if(mem[st][ed]>0)return mem[st][ed];
+        int max = 0;
+        for(int i=st+1;i<ed;i++){
+            int num = op_nums[i];
+            int left = devide_conquer(op_nums,st,i);
+            int right = devide_conquer(op_nums,i,ed);
+            max = Math.max(max,left+right+num*op_nums[st]*op_nums[ed]);
         }
-        if(!flag){
-            int sum = 0;
-            for (char ch : chars) {
-                sum = 10*sum+ch-'0';
-            }
-            ans.add(sum);
-        }
-        return ans;
+        mem[st][ed] = max;
+        return max;
     }
 }

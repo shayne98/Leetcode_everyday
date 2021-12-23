@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
+      <change afterPath="$PROJECT_DIR$/src/leecode/math/No326/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Test.java" afterDir="false" />
     </list>
@@ -256,7 +257,7 @@
       <workItem from="1640055562274" duration="8503000" />
       <workItem from="1640139840636" duration="247000" />
       <workItem from="1640140164389" duration="2390000" />
-      <workItem from="1640226901272" duration="305000" />
+      <workItem from="1640226901272" duration="4075000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
