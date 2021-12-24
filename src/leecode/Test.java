@@ -9,30 +9,38 @@ import java.util.*;
 
 @SuppressWarnings("all")
 class Solution {
-    int[][] mem ;
-    public int maxCoins(int[] nums) {
-        int len = nums.length+2;
-        int[] op_nums = new int[len];
-        mem = new int[len][len];
-        op_nums[0] = 1;
-        op_nums[len-1] = 1;
-        for(int i=1;i<len-1;i++){
-            op_nums[i] = nums[i-1];
-        }
-        return devide_conquer(op_nums,0,len-1);
-
+    public int[] searchRange(int[] nums, int target) {
+        if(nums.length==0)return new int[]{-1,-1};
+        int minIndex = findMin(nums,target);
+        int maxIndex = findMax(nums,target);
+        return new int[]{minIndex,maxIndex};
     }
-    public int devide_conquer(int[] op_nums,int st,int ed){
-        if(st+1==ed)return 0;
-        if(mem[st][ed]>0)return mem[st][ed];
-        int max = 0;
-        for(int i=st+1;i<ed;i++){
-            int num = op_nums[i];
-            int left = devide_conquer(op_nums,st,i);
-            int right = devide_conquer(op_nums,i,ed);
-            max = Math.max(max,left+right+num*op_nums[st]*op_nums[ed]);
+    public int findMin(int[] nums,int target){
+        int left = 0;
+        int right = nums.length-1;
+        while(left<=right){
+            int mid = (left+right)/2;
+            if(nums[mid] >=target){
+                right = mid-1;
+            }
+            else{
+                left = mid+1;
+            }
         }
-        mem[st][ed] = max;
-        return max;
+        return left<nums.length&&nums[left]==target?left:-1;
+    }
+    public int findMax(int[] nums,int target){
+        int left = 0;
+        int right = nums.length-1;
+        while(left<=right){
+            int mid = (left+right)/2;
+            if(nums[mid] >target){
+                right = mid-1;
+            }
+            else{
+                left = mid+1;
+            }
+        }
+        return right>=0&&nums[right]==target?right:-1;
     }
 }
