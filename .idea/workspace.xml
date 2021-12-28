@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/math/No382/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/math/No168/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/math/No67/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/math/No67/Solution_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/math/No528/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/math/No528/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.math.No528.Solution" />
       <module name="Leetcode" />
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.math.No67.Solution" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
+          <option name="PATTERN" value="leecode.math.No67.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution_" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +264,8 @@
       <workItem from="1640226901272" duration="5055000" />
       <workItem from="1640308375246" duration="5836000" />
       <workItem from="1640399701907" duration="9435000" />
-      <workItem from="1640487754167" duration="4929000" />
+      <workItem from="1640487754167" duration="5633000" />
+      <workItem from="1640666834162" duration="5983000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
