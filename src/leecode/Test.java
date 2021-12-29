@@ -9,41 +9,25 @@ import java.util.*;
 
 @SuppressWarnings("all")
 class Solution {
-    public int singleNonDuplicate(int[] nums) {
-        int len = nums.length;
-        int left =0;
-        int right = len-1;
-        while(left<=right){
-            if(left == right ){
-                return nums[left];
-            }
-            int mid = (left + right)/2;
-            if(mid%2==1){
-                //若mid左右有奇数个元素
-                if(nums[mid] == nums[mid+1]){
-                    //mid属于右边的堆，左边堆就是奇数个元素
-                    //单个元素必在左边
-                    right = mid-1;
-                }
-                else{
-                    //mid不属于右边堆，那么右边堆只有奇数个元素
-                    left = mid+1;
-                }
-
-            }
-            else{
-                //mid左右有偶数个元素
-                if(nums[mid] == nums[mid+1]){
-                    //mid属于右边的那堆，单个元素必存在奇数堆中
-                    left = mid+2;
-                }
-                else{
-                    //mid属于左边那堆
-                    right = mid;
-                }
+    public int candy(int[] ratings) {
+        int len = ratings.length;
+        int[] num = new int[len];
+        Arrays.fill(num,1);
+        int total = len;
+        //从左往右遍历调整右边的元素，使得每个元素和相邻右边的元素均满足要求
+        for(int i=1;i<len;i++){
+            if(ratings[i]>ratings[i-1]&&num[i]<=num[i-1]){
+                total += num[i-1]-num[i]+1;
+                num[i] = num[i-1]+1;
             }
         }
-        return 0;
-
+        //如法炮制，从右往左遍历
+        for(int i=len-2;i>=0;i--){
+            if(ratings[i]>ratings[i+1]&&num[i]<=num[i+1]){
+                total += num[i+1]-num[i]+1;
+                num[i] = num[i+1]+1;
+            }
+        }
+        return total;
     }
 }
