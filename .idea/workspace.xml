@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/math/No169/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/math/No169/Solution_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No136/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No190/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No318/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No342/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No461/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/math/No202/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No202/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/math/No470/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No470/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +60,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -65,7 +71,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -265,7 +271,13 @@
       <workItem from="1640666834162" duration="9807000" />
       <workItem from="1640829170962" duration="4424000" />
       <workItem from="1641345987016" duration="5349000" />
-      <workItem from="1641428767510" duration="1658000" />
+      <workItem from="1641428767510" duration="3569000" />
+      <workItem from="1641621191293" duration="349000" />
+      <workItem from="1641621579522" duration="904000" />
+      <workItem from="1641640472602" duration="2240000" />
+      <workItem from="1641710502117" duration="1229000" />
+      <workItem from="1641800674571" duration="3367000" />
+      <workItem from="1641885270439" duration="3289000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
@@ -423,6 +435,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;practice with reviewing&quot;" />
     <MESSAGE value="&quot;No91. Decode Ways finished&quot;" />
     <MESSAGE value="&quot;No139. Word Break finished&quot;" />
