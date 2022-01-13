@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No136/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No190/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No318/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No342/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No461/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No268/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No338/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No476/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No693/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/math/No202/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No202/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/math/No470/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/math/No470/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +273,9 @@
       <workItem from="1641640472602" duration="2240000" />
       <workItem from="1641710502117" duration="1229000" />
       <workItem from="1641800674571" duration="3367000" />
-      <workItem from="1641885270439" duration="3289000" />
+      <workItem from="1641885270439" duration="3443000" />
+      <workItem from="1641966773625" duration="2017000" />
+      <workItem from="1642072654438" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
