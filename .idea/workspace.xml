@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No268/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No338/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No476/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/bitwise_operation/No693/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/hash/No1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/hash/No128/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/queue/No218/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/queue/No23/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/queue/No239/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/math/No67/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/Leetcode/leecode/math/No67/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/array/No240/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/array/No240/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/array/No240/Solution_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/array/No240/Solution_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/array/No48/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/array/No48/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/array/No769/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/array/No769/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/stack/No155/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/stack/No155/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/stack/No155/Solution_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/stack/No155/Solution_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/stack/No20/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/stack/No20/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/stack/No232/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/stack/No232/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/ds/stack/No739/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/ds/stack/No739/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +56,18 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/leecode/ds/stack/No232/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/bitwise_operation/No476/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/ds/stack/No155/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/Test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/math/No202/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/math/No169/Solution_.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/ds/stack/No155/Solution_.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/bitwise_operation/No190/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/binarySearch/No4/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leecode/bitwise_operation/No136/Solution.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -62,14 +88,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../研究生/实验室/Kafka并不难学/实例源代码/kafka-game-x" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.math.No528.Solution" />
       <module name="Leetcode" />
@@ -96,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.DP.No10.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.ds.array.No48.Solution" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.DP.No10.*" />
+          <option name="PATTERN" value="leecode.ds.array.No48.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution_" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +301,22 @@
       <workItem from="1641800674571" duration="3367000" />
       <workItem from="1641885270439" duration="3443000" />
       <workItem from="1641966773625" duration="2017000" />
-      <workItem from="1642072654438" duration="694000" />
+      <workItem from="1642072654438" duration="1705000" />
+      <workItem from="1642132363597" duration="1045000" />
+      <workItem from="1642224668352" duration="2286000" />
+      <workItem from="1642307885740" duration="995000" />
+      <workItem from="1642412892948" duration="1200000" />
+      <workItem from="1642414324979" duration="612000" />
+      <workItem from="1642470152544" duration="2555000" />
+      <workItem from="1642474282825" duration="52000" />
+      <workItem from="1642575529375" duration="1208000" />
+      <workItem from="1642670423094" duration="1680000" />
+      <workItem from="1642738291726" duration="2747000" />
+      <workItem from="1642787883961" duration="16000" />
+      <workItem from="1642810898566" duration="707000" />
+      <workItem from="1642836783615" duration="2967000" />
+      <workItem from="1642911889337" duration="603000" />
+      <workItem from="1642938373530" duration="6791000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
@@ -474,6 +515,11 @@
           <url>file://$PROJECT_DIR$/src/leecode/DP/No474/Solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leecode/ds/array/No48/Solution.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

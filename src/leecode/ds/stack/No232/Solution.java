@@ -1,4 +1,4 @@
-package leecode.ds.No232;
+package leecode.ds.stack.No232;
 
 import java.util.Stack;
 
