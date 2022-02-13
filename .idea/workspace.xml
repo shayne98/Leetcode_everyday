@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/hash/No307/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No160/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No19/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No21/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No234/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No24/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No328/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No83/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/queue/No313/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/ds/queue/No313/Solution_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leecode/string_op/No243/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_excel/leetcode_everyday .xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +308,7 @@
       <workItem from="1643696746622" duration="2702000" />
       <workItem from="1643779585218" duration="8637000" />
       <workItem from="1643962123574" duration="903000" />
-      <workItem from="1644753250270" duration="5822000" />
+      <workItem from="1644753250270" duration="6267000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
