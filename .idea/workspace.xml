@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bc9576-74dd-425c-a416-77f05b4b6c68" name="Changes" comment="&quot;No583. Delete Operation for Two Strings finished&quot;">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/link_list/No148/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/tree/No101/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/tree/No104/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/tree/No110/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/tree/No1110/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/tree/No437/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leecode/ds/tree/No543/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +315,10 @@
       <workItem from="1643696746622" duration="2702000" />
       <workItem from="1643779585218" duration="8637000" />
       <workItem from="1643962123574" duration="903000" />
-      <workItem from="1644753250270" duration="6267000" />
+      <workItem from="1644753250270" duration="6659000" />
+      <workItem from="1644808235224" duration="2159000" />
+      <workItem from="1645164095583" duration="4921000" />
+      <workItem from="1645177396772" duration="5018000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;practice with reviewing&quot;">
       <created>1635558157812</created>
